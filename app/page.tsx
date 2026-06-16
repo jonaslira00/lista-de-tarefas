@@ -20,10 +20,12 @@ const Home = () => {
         <CardContent>
           <Separator className="mb-2" />  
           <div className="flex gap-2 p-2">
-          <Badge className="cursor-pointer"><ListCollapse />Todas</Badge>
-          <Badge className="cursor-pointer"><ListX />Não finalizadas</Badge>
-          <Badge className="cursor-pointer"><ListChecks  />Finalizadas</Badge>
-        </div>
+            <Badge className="cursor-pointer"><ListCollapse />Todas</Badge>
+            <Badge className="cursor-pointer"><ListX />Não finalizadas</Badge>
+            <Badge className="cursor-pointer"><ListChecks  />Finalizadas</Badge>
+          </div>
+
+          
 
         </CardContent>
 
